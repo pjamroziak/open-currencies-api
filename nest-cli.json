@@ -1,0 +1,15 @@
+{
+  "collection": "@nestjs/schematics",
+  "monorepo": true,
+  "projects": {
+    "ecb-scrapper": {
+      "type": "application",
+      "root": "apps/ecb-scrapper",
+      "entryFile": "main",
+      "sourceRoot": "apps/ecb-scrapper/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/ecb-scrapper/tsconfig.app.json"
+      }
+    }
+  }
+}
